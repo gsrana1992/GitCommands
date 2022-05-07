@@ -18,3 +18,4 @@ Connecting Remote Repository to Local Repository : git remote add origin https:/
 Pushing local changes to remote repository : git push origin master
 Create new branch : git branch branch_cmd
 Move head to the new branch : git checkout branch_cmd
+Merge 2 branches : 1. move to the desired branch => git checkout master ; 2. merge the branch => git merge branch_cmd
