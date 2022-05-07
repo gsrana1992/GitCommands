@@ -16,4 +16,3 @@ Popping Stash : git stash pop
 Clearing Stash : git stash clear
 Connecting Remote Repository to Local Repository : git remote add origin https://github.com/gsrana1992/GitCommands.git
 Pushing local changes to remote repository : git push origin master
-
