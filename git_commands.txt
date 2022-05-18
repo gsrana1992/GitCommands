@@ -11,7 +11,7 @@ Viewing the overall history of the project : git log
 Removing changes from stage : git restore --staged names.txt
 Restoring any deleted file/folder : git restore names.txt
 Removing a commit from the history of a project (removes all commit after the given id) : git reset a84b22d73f07a7bd4c028643d2bbcd8aefc1164a
-Reverting a commit from the history of a project (reverts the changes made in the given id but creates a new commit for revert) : git revert a84b22d73f07a7bd4c028643d2bbcd8aefc1164a
+Reverting a commit from the history of a project (reverts the changes made in the given id but creates a new commit for revert) : git revert a84b22d73f07a7bd4c028643d2bbcd8aefc1164a (commits directly. Use -n to stage it and commit manually)
 Stashing changes : git stash
 Popping Stash : git stash pop
 Clearing Stash : git stash clear
@@ -20,6 +20,7 @@ Pushing local changes to remote repository : git push origin master
 Create new branch : git branch branch_cmd
 Move head to the new branch : git checkout branch_cmd
 Merge 2 branches : 1. move to the desired branch => git checkout master ; 2. merge the branch => git merge branch_cmd
+Delete a branch : git branch -d branch_name
 Clone a repository : git clone https://github.com/gsrana1992/disney-data-science-tasks.git
 add upstream to your git repository : git remote add upstream https://github.com/KeithGalli/disney-data-science-tasks.git
 Push to remote after resetting to older commit : git push origin master -f
